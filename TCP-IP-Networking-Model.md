@@ -43,7 +43,7 @@ Ví dụ về sử dụng Ethernet để định hướng gói tin
 
 
 ## Cách thức hoạt động của TCP/IP
-Khi truyền dữ liệu , quá trình tiến hành từ lớp trên xuống lớp dưới, qua mỗi tầng dữ liệu được thêm vào thông tin điều khiển gọi là Header. Khi nhận dữ liệu thì quá trình xảy ra ngược lại, dữ liệu được truyền từ tầng dưới lên và qua mỗi tầng thì phần header tương ứng sẽ được lấy đi và khi đến tầng trên cùng thì dữ liệu không còn phần header nữa.
+Khi truyền dữ liệu , quá trình tiến hành từ lớp trên xuống lớp dưới, qua mỗi lớp dữ liệu được thêm vào thông tin điều khiển gọi là Header. Khi nhận dữ liệu thì quá trình xảy ra ngược lại, dữ liệu được truyền từ lớp dưới lên và qua mỗi lớp thì phần header tương ứng sẽ được lấy đi và khi đến  trên cùng thì dữ liệu không còn phần header nữa.
 ![alt](https://scontent.xx.fbcdn.net/v/t1.15752-9/s370x247/248689172_3155498911349100_2989058677557044256_n.png?_nc_cat=105&ccb=1-5&_nc_sid=aee45a&_nc_ohc=IqDV3G1OlgQAX9qlyuz&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=047497c4d15b66a2deb532d554a05a53&oe=619F2A25)
 
 ## So sánh mô hình OSI với TCP/IP
