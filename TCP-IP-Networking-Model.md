@@ -34,8 +34,11 @@ Ví dụ về sử dụng Ethernet để định hướng gói tin
 ![alt](https://scontent.xx.fbcdn.net/v/t1.15752-9/s480x480/248265922_1047456922704726_5633732569652861715_n.png?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_ohc=VWihwoamGhAAX9K8Jig&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=6ef8bcdaa5cdfecea42cc0d755c9a77b&oe=619D807E)
 
 **Bước 1** Larry đóng gói gói tin IP giữa header Ethernet và trailer Ethernet, tạo ra một khung Ethernet 
+
 **Bước 2** Larry truyền các bit của khung Ethernet một cách vật lý, sử dụng dòng điện chạy qua hệ thống cáp Ethernet.
+
 **Bước 3** Bộ định tuyến R1 về mặt vật lý nhận tín hiệu điện qua cáp và tạo lại các bit tương tự bằng cách diễn giải ý nghĩa của các tín hiệu điện.
+
 **Bước 4** Bộ định tuyến R1 đưa gói tin IP ra khỏi khung Ethernet bằng cách loại bỏ phần header và trailer Ethernet.
 
 
