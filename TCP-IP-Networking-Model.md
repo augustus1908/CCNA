@@ -3,8 +3,9 @@ Transmission Control Protocol/Internet Protocol
 
 ![alt](https://images.viblo.asia/653e97ca-c80d-415e-9547-7395a3309c32.png)
 
+Tiến trình lịch sử: Từ mô hình độc quyền cho đến mô hình TCP / IP mở
 ![alt](https://f5-zpcloud.zdn.vn/2014813437060132607/b2b8c6de427a8e24d76b.jpg)
-Tiến trình lịch sử: Mô hình độc quyền cho mô hình TCP / IP mở
+
 
 ## Lớp ứng dụng
 * Giao thức lớp ứng dụng TCP / IP cung cấp dịch vụ cho phần mềm ứng dụng đang chạy trên máy tính. 
@@ -15,6 +16,7 @@ Tiến trình lịch sử: Mô hình độc quyền cho mô hình TCP / IP mở
 Ví dụ về cách thức hoạt động của HTTP
 ![alt](https://f4-zpcloud.zdn.vn/1575355005448582221/e9cb86702ad4e68abfc5.jpg)
 
+
 ## Lớp giao vận
 * Chịu trách nhiệm duy trì liên lạc đầu cuối trên toàn mạng.
 * Tầng này có 2 giao thức chính là TCP ( Transmisson Control Protocol) và UDP ( User Datagram Protocol )
@@ -22,11 +24,13 @@ Ví dụ về cách thức hoạt động của HTTP
 Ví dụ cơ bản về khôi phục lỗi TCP
 ![alt](https://f5-zpcloud.zdn.vn/6227076858807877996/da7c6572c2d60e8857c7.jpg)
 
+
 ## Lớp liên mạng
 * Xử lý quá trình truyền gói tin trên mạng
 * Giao thức chủ yếu: the Internet Protocol (IP): IP cung cấp một số tính năng, quan trọng nhất là định địa chỉ và định tuyến
 
 ![alt](https://f6-zpcloud.zdn.vn/4802052889340965246/af3e012fda8b16d54f9a.jpg)
+
 
 ## Lớp vật lý và liên kết dữ liệu
 * Lớp vật lý và liên kết dữ liệu của mô hình TCP / IP xác định các giao thức và phần cứng cần thiết để cung cấp dữ liệu qua một số mạng vật lý. 
@@ -50,6 +54,8 @@ Khi truyền dữ liệu , quá trình tiến hành từ lớp trên xuống l�
 ![alt](https://f5-zpcloud.zdn.vn/6105852537827125756/4d47a04368e7a4b9fdf6.jpg)
 
 ![alt](https://f5-zpcloud.zdn.vn/269625471654586323/cd7f76c5be61723f2b70.jpg)
+
+
 
 ## So sánh mô hình OSI với TCP/IP
 ![alt](https://f5-zpcloud.zdn.vn/76802242870281224/7adc84db497f8521dc6e.jpg)
