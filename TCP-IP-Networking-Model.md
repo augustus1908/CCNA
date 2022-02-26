@@ -3,7 +3,8 @@ Transmission Control Protocol/Internet Protocol
 
 ![alt](https://images.viblo.asia/653e97ca-c80d-415e-9547-7395a3309c32.png)
 
-![Tiến trình lịch sử: Mô hình độc quyền cho đến mô hình TCP / IP mở](https://f5-zpcloud.zdn.vn/2014813437060132607/b2b8c6de427a8e24d76b.jpg)
+![alt](https://f5-zpcloud.zdn.vn/2014813437060132607/b2b8c6de427a8e24d76b.jpg)
+Tiến trình lịch sử: Mô hình độc quyền cho mô hình TCP / IP mở
 
 ## Lớp ứng dụng
 * Giao thức lớp ứng dụng TCP / IP cung cấp dịch vụ cho phần mềm ứng dụng đang chạy trên máy tính. 
@@ -12,18 +13,20 @@ Transmission Control Protocol/Internet Protocol
 * Tóm lại, lớp ứng dụng cung cấp giao diện giữa phần mềm chạy trên máy tính và mạng của nó.
 
 Ví dụ về cách thức hoạt động của HTTP
-![alt](https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/246612752_434208654785108_8409102494971154069_n.png?_nc_cat=104&ccb=1-5&_nc_sid=aee45a&_nc_ohc=JNwxkTRkbgwAX_qk3vW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=b316a5d975f008a8551fb18628b51e01&oe=619DA897)
+![alt](https://f4-zpcloud.zdn.vn/1575355005448582221/e9cb86702ad4e68abfc5.jpg)
 
 ## Lớp giao vận
 * Chịu trách nhiệm duy trì liên lạc đầu cuối trên toàn mạng.
 * Tầng này có 2 giao thức chính là TCP ( Transmisson Control Protocol) và UDP ( User Datagram Protocol )
 
 Ví dụ cơ bản về khôi phục lỗi TCP
-![alt](https://scontent.xx.fbcdn.net/v/t1.15752-9/s552x414/247572600_391987402617992_3271709053625449633_n.png?_nc_cat=107&ccb=1-5&_nc_sid=aee45a&_nc_ohc=fsBolZ8hn8cAX-WZHZf&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=eeb0b7e312fcf2314dff69b278d1183b&oe=619F7300)
+![alt](https://f5-zpcloud.zdn.vn/6227076858807877996/da7c6572c2d60e8857c7.jpg)
 
 ## Lớp liên mạng
 * Xử lý quá trình truyền gói tin trên mạng
 * Giao thức chủ yếu: the Internet Protocol (IP): IP cung cấp một số tính năng, quan trọng nhất là định địa chỉ và định tuyến
+
+![alt](https://f6-zpcloud.zdn.vn/4802052889340965246/af3e012fda8b16d54f9a.jpg)
 
 ## Lớp vật lý và liên kết dữ liệu
 * Lớp vật lý và liên kết dữ liệu của mô hình TCP / IP xác định các giao thức và phần cứng cần thiết để cung cấp dữ liệu qua một số mạng vật lý. 
@@ -31,7 +34,7 @@ Ví dụ cơ bản về khôi phục lỗi TCP
 * Lớp liên kết dữ liệu TCP / IP cung cấp các dịch vụ cho lớp phía trên nó trong mô hình (lớp mạng). Khi tiến trình IP của máy chủ hoặc bộ định tuyến chọn gửi gói IP đến bộ định tuyến hoặc máy chủ khác, máy chủ hoặc bộ định tuyến đó sẽ sử dụng chi tiết lớp liên kết để gửi gói đó đến máy chủ / bộ định tuyến tiếp theo.
 
 Ví dụ về sử dụng Ethernet để định hướng gói tin
-![alt](https://scontent.xx.fbcdn.net/v/t1.15752-9/s480x480/248265922_1047456922704726_5633732569652861715_n.png?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_ohc=VWihwoamGhAAX9K8Jig&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=6ef8bcdaa5cdfecea42cc0d755c9a77b&oe=619D807E)
+![alt](https://f6-zpcloud.zdn.vn/523729655511780317/611e8c88562c9a72c33d.jpg)
 
 **Bước 1** Larry đóng gói gói tin IP giữa header Ethernet và trailer Ethernet, tạo ra một khung Ethernet 
 
@@ -44,7 +47,9 @@ Ví dụ về sử dụng Ethernet để định hướng gói tin
 
 ## Cách thức hoạt động của TCP/IP
 Khi truyền dữ liệu , quá trình tiến hành từ lớp trên xuống lớp dưới, qua mỗi lớp dữ liệu được thêm vào thông tin điều khiển gọi là Header. Khi nhận dữ liệu thì quá trình xảy ra ngược lại, dữ liệu được truyền từ lớp dưới lên và qua mỗi lớp thì phần header tương ứng sẽ được lấy đi và khi đến  trên cùng thì dữ liệu không còn phần header nữa.
-![alt](https://scontent.xx.fbcdn.net/v/t1.15752-9/s370x247/248689172_3155498911349100_2989058677557044256_n.png?_nc_cat=105&ccb=1-5&_nc_sid=aee45a&_nc_ohc=IqDV3G1OlgQAX9qlyuz&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=047497c4d15b66a2deb532d554a05a53&oe=619F2A25)
+![alt](https://f5-zpcloud.zdn.vn/6105852537827125756/4d47a04368e7a4b9fdf6.jpg)
+
+![alt](https://f5-zpcloud.zdn.vn/269625471654586323/cd7f76c5be61723f2b70.jpg)
 
 ## So sánh mô hình OSI với TCP/IP
-![alt](https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/245671595_1043972833060110_5988413681567344834_n.png?_nc_cat=109&ccb=1-5&_nc_sid=aee45a&_nc_ohc=vu74fF8VwJ4AX_QxOG6&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=1f20c9b0bed3b50003881aa033989659&oe=619DCFA8)
+![alt](https://f5-zpcloud.zdn.vn/76802242870281224/7adc84db497f8521dc6e.jpg)
