@@ -10,6 +10,9 @@ là giao thức tự động cấp phát địa chỉ IP đến các thiết b�
 
 
 ### Cách thức hoạt động:
+
+![](https://www.totolink.vn/public/uploads/img_article/dhcplagitimhieuvedhcpcachthuchoatdongcuadhcp.jpg)
+
 Khi muốn kết nối với mạng thiết bị sẽ gửi yêu cầu `DHCP DISCOVER` đến máy chủ. Máy chủ DHCP sẽ tìm địa chỉ IP khả dụng rồi cung cấp cho thiết bị cùng với gói `DHCP OFFER`.
 
 Sau khi nhận được địa chỉ, thiết bị sẽ phản hồi với máy chủ bằng một gói tin `DHCP REQUEST`. Đây là lúc chấp nhận yêu cầu, máy chủ sẽ gửi tin báo nhận (ACK) xác nhận thiết bị đã có IP và thời gian sử dụng IP đến khi có địa chỉ mới.
